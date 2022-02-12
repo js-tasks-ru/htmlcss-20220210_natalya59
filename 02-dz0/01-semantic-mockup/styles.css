@@ -2,11 +2,15 @@ body,
 h1,
 h2,
 div,
+ul,
+ol,
+li,
 header,
 nav,
 main,
 article,
-footer {
+footer,
+section {
     margin: 0;
 }
 
@@ -15,17 +19,16 @@ h1 {
     text-align: center;
 }
 
-header div:first-of-type {
+nav {
     background-color: lightcoral;
     text-align: center;
+}
+nav a {
     text-decoration: underline;
+    color: black;
 }
 
-nav {
-    display: inline;
-}
-
-main div:first-child  {
+main  {
     background-color: lightblue;
     padding: 24px 32px;
 }
@@ -33,6 +36,11 @@ main div:first-child  {
 article {
     background-color: lavenderblush;
 }
+
+article:not(:last-child) {
+    margin-bottom: 24px;
+}
+
 footer {
     background-color: lightpink;
     text-align: center;
