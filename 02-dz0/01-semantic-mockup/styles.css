@@ -1,0 +1,39 @@
+body,
+h1,
+h2,
+div,
+header,
+nav,
+main,
+article,
+footer {
+    margin: 0;
+}
+
+h1 {
+    background-color: cornflowerblue;
+    text-align: center;
+}
+
+header div:first-of-type {
+    background-color: lightcoral;
+    text-align: center;
+    text-decoration: underline;
+}
+
+nav {
+    display: inline;
+}
+
+main div:first-child  {
+    background-color: lightblue;
+    padding: 24px 32px;
+}
+
+article {
+    background-color: lavenderblush;
+}
+footer {
+    background-color: lightpink;
+    text-align: center;
+}
