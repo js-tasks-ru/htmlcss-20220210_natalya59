@@ -1,0 +1,53 @@
+article,
+section,
+header,
+div,
+p {
+    margin: 0;
+}
+
+.histogram {
+    padding: 16px 24px 24px;
+    border-radius: 8px;
+    border: 1px solid var(--grey-3);
+}
+
+.histogram__header {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 39px;
+}
+
+.histogram__title {
+    color: var(--black);
+    opacity: 0.8;
+}
+
+.histogram__link {
+    color: var(--blue);
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+
+.histogram__count {
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.histogram__columns {
+    display: flex;
+    align-items: flex-end;
+    gap: 1px;
+}
+
+.histogram__column {
+    --max-height: 50px;
+    background-color: var(--blue);
+    min-width: 1px;
+    flex-grow: 1;
+    height: calc(var(--value) * var(--max-height));
+}
