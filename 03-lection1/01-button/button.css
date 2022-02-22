@@ -1,18 +1,21 @@
 /* Стилизация кнопки */
 .button {
-    width: 189px;
-    height: 48px;
+    padding: 15px 56px;
     border-radius: 8px;
     border: none;
     cursor: pointer;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 19px;
+
 }
 
-.button, .button_primary {
+.button_primary {
     color: var(--white);
     background-color: var(--blue);
 }
 
-.button:hover, .button_primary:hover {
+.button_primary:hover {
     background-color: var(--blue-solid);
 }
 
@@ -23,6 +26,7 @@
 }
 
 .button_secondary {
+    color: var(--white);
     background-color: var(--purple);
 }
 
