@@ -1,0 +1,18 @@
+.footer {
+    height: 384px;
+    background-color: var(--white);
+    padding: 71px 0px 136px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.footer__title {
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+.footer__details {
+    max-width: 640px;
+    margin: 0 auto;
+}
