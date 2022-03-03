@@ -1,11 +1,5 @@
 .tooltip {
     display: inline-block;
-    position: fixed;
-}
-
-.tooltip_centered {
-    top: 50%;
-    left: 50%;
 }
 
 .tooltip__icon {
