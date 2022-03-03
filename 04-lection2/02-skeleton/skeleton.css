@@ -32,10 +32,10 @@
     height: 20px;
 }
 
-.skeleton__rectangle-width-half {
+.skeleton__rectangle_width-half {
     width: 50%;
 }
 
-.skeleton__rectangle-width-third {
+.skeleton__rectangle_width-third {
     width: 33%;
 }
