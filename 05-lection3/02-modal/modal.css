@@ -8,13 +8,13 @@
     z-index: 1;
     background-color: rgba(196, 196, 196, 0.5);
     display: none;
+    align-items: center;
+    justify-content: center;
 }
 
 /* ширина модального окна и отступы */
 .modal__popup {
     position: relative;
-    top: 50%;
-    transform: translateY(-50%);
     width: 720px;
     max-height: calc(100vh - 80px);
     margin: 0 auto;
