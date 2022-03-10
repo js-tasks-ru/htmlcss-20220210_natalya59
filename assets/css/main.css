@@ -22,7 +22,8 @@ footer,
 section,
 p,
 details,
-summary {
+summary,
+svg {
     margin: 0;
 }
 
