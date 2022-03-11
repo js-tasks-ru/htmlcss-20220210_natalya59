@@ -26,6 +26,25 @@ summary {
     margin: 0;
 }
 
+body,
+h1,
+h2,
+div,
+ul,
+ol,
+li,
+header,
+nav,
+main,
+article,
+footer,
+section,
+p,
+details,
+summary {
+    margin: 0;
+}
+
 :root {
     --white: #ffffff;
     --black: #212429;
