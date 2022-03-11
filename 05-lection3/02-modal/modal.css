@@ -38,7 +38,7 @@
     color: var(--grey-4);
 }
 
-.modal__title + .modal__body {
+.modal__body {
     margin-top: 14px;
     color: var(--grey-4);
     font-family: Inter;
