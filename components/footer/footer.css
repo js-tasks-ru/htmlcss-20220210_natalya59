@@ -5,6 +5,12 @@
     text-align: center;
 }
 
+.footer_shortcut {
+    background-color: #F9FAFC;
+    padding: 56px 0;
+    text-align: center;
+}
+
 .footer__title {
     font-family: 'Inter', sans-serif;
     font-size: 38px;
@@ -12,8 +18,22 @@
     line-height: 48px;
 }
 
+.footer__title_shortcut {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    color: var(--grey-3);
+}
+
 .footer__details {
     font-family: 'Inter', sans-serif;
     max-width: 640px;
     margin: 0 auto;
+}
+
+@media (max-width: 376px) {
+    .footer {
+        display: none;
+    }
 }
