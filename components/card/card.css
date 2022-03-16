@@ -2,6 +2,11 @@
     background-color: var(--blue);
     box-shadow: 0px 2px 4px 0px #2124290D;
     border-radius: 12px;
-    flex-basis: 350px;
     height: 357px;
+}
+
+@media (max-width: 376px) {
+    .card {
+        height: 177px;
+    }
 }
