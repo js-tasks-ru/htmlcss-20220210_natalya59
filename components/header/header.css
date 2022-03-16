@@ -1,6 +1,11 @@
 .header {
     background-color: var(--white);
-    padding: 96px 0px 77px 0px;
+    padding: 24px 0px 77px;
+}
+
+.header_shortcut {
+    background-color: #F9FAFC;
+    padding: 24px 0px 62px;
 }
 
 .header__title {
@@ -9,4 +14,40 @@
     font-weight: 500;
     line-height: 64px;
     margin: 0;
+}
+
+.header__navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 41px;
+}
+
+.header__logo {
+    color: var(--black);
+}
+
+.header__logo-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.header__logo-icon:not(:last-child) {
+    margin-right: 8px;
+}
+
+@media (max-width: 376px) {
+    .header__navbar {
+        justify-content: center;
+        margin-bottom: 41px;
+    }
+
+    .header__title {
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 38px;
+    }
+
+    .header_shortcut {
+        padding: 24px 0px 62px;
+    }
 }
