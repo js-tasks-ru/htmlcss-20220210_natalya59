@@ -1,0 +1,20 @@
+.burger-menu {
+    background: red;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    transform: translateX(-100vw);
+    transition: transform 200ms ease-in-out;
+}
+
+.burger-menu[data-open] {
+    transform: translateX(0); /*или transform: none*/
+}
+
+@media (min-width: 768px) {
+    .burger-menu-open {
+        display: none;
+    }
+}
