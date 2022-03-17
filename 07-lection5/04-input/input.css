@@ -14,22 +14,18 @@
 
 .input-group__body {
     position: relative;
-    min-width: 350px;
-    width: 100%;
-    height: 56px;
 }
 
 .input-group__input {
+    width: 100%;
+    min-width: 350px;
+    height: 56px;
     padding-left: 24px;
     padding-right: 56px;
-
     border: 1px solid var(--grey-2);
     box-sizing: border-box;
     outline: none;
     border-radius: 8px;
-    width: 100%;
-    height: 100%;
-
 
     font-family: Inter;
     font-size: 20px;
@@ -71,10 +67,10 @@
    pointer-events: none;
 }
 
-.input-group__input_invalid ~ .input-group__control .input-group__icon {
+.input-group__invalid .input-group__icon {
     background-image: url('../../assets/images/alert.svg');
 }
 
-.input-group__input_success ~ .input-group__control .input-group__icon {
+.input-group__success .input-group__icon {
     background-image: url('../../assets/images/circle-check.svg');
 }
