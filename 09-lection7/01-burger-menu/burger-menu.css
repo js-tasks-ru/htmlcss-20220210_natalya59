@@ -1,5 +1,5 @@
 .burger-menu {
-    background: red;
+    background: grey;
     position: fixed;
     top: 0;
     left: 0;
@@ -17,4 +17,11 @@
     .burger-menu-open {
         display: none;
     }
+}
+
+.preload * {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -ms-transition: none !important;
+    -o-transition: none !important;
 }
