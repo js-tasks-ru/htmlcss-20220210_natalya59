@@ -17,3 +17,8 @@ if (menuClose) {
         }
     });
 }
+
+/*transitions only after page load*/
+window.addEventListener('load', () =>  {
+    document.body.removeClass("preload");
+});
