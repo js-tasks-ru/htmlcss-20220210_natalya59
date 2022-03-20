@@ -9,5 +9,8 @@
         <symbol id="triangle">
             <path d="M0 0L30 32H0V0Z" fill="currentColor"/>
         </symbol>
+        <symbol id="check">
+            <path d="M1.5 7.5L5 11L13 2" fill="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        </symbol>
     </defs>
 </svg>
